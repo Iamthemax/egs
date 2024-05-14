@@ -75,6 +75,8 @@ class ProfileActivity : AppCompatActivity() {
                             showPasswordExplainDialog()
                         }
 
+
+
                     }else{
                         binding.txLayoutPasswordNewReEnter.setError(resources.getString(R.string.both_password_did_not_match))
                         binding.txLayoutPasswordNew.setError(resources.getString(R.string.both_password_did_not_match))
